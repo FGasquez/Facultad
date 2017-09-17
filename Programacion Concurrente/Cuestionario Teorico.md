@@ -1,6 +1,6 @@
 # Cuestionario Teórico
 
-======================
+============================
 
 #### 1. Mencione al menos 3 ejemplos donde pueda encontrarse concurrencia
 #### (que no estén mencionados en las transparencias de la clase)
@@ -25,6 +25,7 @@
 
 * Multithread: Maneja simultaneamente tareas independientes, asignando los
   procesadores de a cuerdo a alguna politica.
+    * Por ejemplo: sistema de ventanas en PC, Sistemas Operativos time-shared.
 
 * Sistemas de computo distribuido: Vincula procesadores distintos sobre los que
   ejecuta instrucciones que se comunican entre sí por mensajes.
@@ -33,4 +34,15 @@
 * Sistemas de computo paralelo: Resuolver un problema en menor tiempo, utilizando
   una arquitectura multiprocesador en la que se puede dividir la taera globar el
   tareas que puedan ejecutarse en distintos procesadores.
-    * Por ejemplo: Calculo científico, Procesamientode imágenes
+    * Por ejemplo: Calculo científico, Procesamientode imágenes.
+
+#### 4. Describa el concepto de deadlock y qué condiciones deben darse para que ocurra.
+
+* El deadlock es una situación en la que dos o mas procesos que comparten un
+  recurso se quedan esperando a que el otro lo libere, impidiendo que ambos avancen.
+
+* Las propiedades para que ocurran son:
+  * Recursos reusables serialmente
+  * Adquisición incremental
+  * No-preemption
+  * Espera cíclica
