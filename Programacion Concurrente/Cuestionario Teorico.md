@@ -62,16 +62,16 @@
   los procesos que comparten un recurso.
 * por ejemplo se tienen los siguientes algoritmos
 
-      x = 2
+        x = 2
 
-      p1{
-        x = x+1;
-      }
+        p1{
+            x = x+1;
+        }
 
-      p2{
-        x = x*2;
-      }
+        p2{
+            x = x*2;
+        }
 
   Si se ejecuta primero la instruccion de p1 y luego la de p2, al finalizar la
-  ejecución, x tendrá el valor 6, mientras que si se ejecuta de la forma p2 y 
+  ejecución, x tendrá el valor 6, mientras que si se ejecuta de la forma p2 y
   luego p1, al finalizar la ejecucion x tendrá el valor 5
