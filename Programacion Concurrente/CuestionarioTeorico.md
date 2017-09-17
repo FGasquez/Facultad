@@ -7,6 +7,7 @@
 
 * Una pc que está renderizando un video, reproduciendo música y a la vez
   navegando por inernet.
+* SmartPhone 
 
 #### 2. Escriba una definición de concurrencia. Diferencie procesamiento
 #### secuencial, concurrente y paralelo.
