@@ -2,12 +2,12 @@
 
 ======================
 
-#### 1_ Mencione al menos 3 ejemplos donde pueda encontrarse concurrencia
+#### 1. Mencione al menos 3 ejemplos donde pueda encontrarse concurrencia
 #### (que no estén mencionados en las transparencias de la clase)
 
-1. Una pc que está renderizando un video, reproduciendo música y a la vez navegando por inernet.
+* Una pc que está renderizando un video, reproduciendo música y a la vez navegando por inernet.
 
-#### 2_ Escriba una definición de concurrencia. Diferencie procesamiento
+#### 2. Escriba una definición de concurrencia. Diferencie procesamiento
 #### secuencial, concurrente y paralelo.
 
 * La concurrencia es la capacidad que tienen las computadoras de
@@ -19,7 +19,7 @@
 
 * Paralelo: Procesamiento físico y simultaneo de un set de instrucciones.
 
-#### 3_ ¿Cuáles son las 3 grandes clases de aplicaciones concurrentes que podemos
+#### 3. ¿Cuáles son las 3 grandes clases de aplicaciones concurrentes que podemos
 #### encontrar? Ejemplifique
 
 * Multithread: Maneja simultaneamente tareas independientes, asignando los
