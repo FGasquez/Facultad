@@ -85,3 +85,21 @@
     compartida o actúan coordinadamente sobre datos residentes en ella.
   * Por pasaje de mensajes: se establece un canal(logico o fisico) para
     transmitir informacion entre procesos.
+
+#### 8.
+* A)_ Defina sincronización. Explique los mecanismos de sincronización que conozca.
+  * Se entiende por sincronizar al ajuste temporal de procesos para lograr la
+    coordinacion entre ellos.
+    * Sincronizacion por exclusion mutua: asegurar que solo un proceso tenga
+      acceso al recurso compartido por un espacio de tiempo
+    * Sincronizacion por condicion: bloquear la ejecucion de un proceso hasta
+      que se cumpla una condicion dada.
+* B)_  ¿En un programa concurrente pueden estar presentes más de un mecanismo
+        de sincronización? En caso afirmativo, ejemplifique
+  * En el problema de productores y consumidores se utilizan dos mecanismos:
+    * Por condición el proceso de consumir se bloquea hasta que se de que se
+      pueda consumir.
+    * Po exclusion mutua el consumidor consumira lo que produjo el productor,
+      pero nunca ambos intentaran usar un mismo recurso a la vez.
+
+#### 9. 
