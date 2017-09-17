@@ -43,6 +43,8 @@
 
 * Las propiedades para que ocurran son:
   * Recursos reusables serialmente
-  * Adquisición incremental
-  * No-preemption
-  * Espera cíclica
+  * Adquisición incremental: Losprocesos mantienen los recursos que poseen
+    mientras esperar adquirir recursos adicionales
+  * No-preemption: Lo recursos solo pueden ser liberados de forma voluntaria.
+  * Espera cíclica: Existe una cadena circular de procesos que dónde cada uno
+    tiene un recurso que su sucesor esta esperando adquirir.
