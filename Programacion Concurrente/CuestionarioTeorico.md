@@ -102,4 +102,23 @@
     * Po exclusion mutua el consumidor consumira lo que produjo el productor,
       pero nunca ambos intentaran usar un mismo recurso a la vez.
 
-#### 9. 
+#### 9.
+* A)_ Analice en qué tipo de problemas son más adecuados cada uno de los 5
+    paradigmas de resolución de problemas concurrentes descriptos en clase.
+  * Paralelismo iterativo: Resolución de sistemas de ecuaciones, calculos con matrices
+  * Paralelismo recursivo: Sort by merge, cálculo de raíces en funciones continuas,
+    problema del viajante.
+  * Productor-consumidor:el pipe en GNU/Linux, esquema productor-consumidor.
+  * Cliente-servidor: mecanismo de invocacion de tipo RPC o rendezvous.
+  * Pares que interactuan: transferencias de archivos.
+
+* B)_ ¿Qué relación encuentra entre el paralelismo recursivo y la estrategia de
+      “dividir y conquistar”? ¿Cómo aplicaría este  concepto a un problema de
+      ordenación de un arreglo (por ejemplo usando un algoritmo de tipo “quicksort”
+      o uno de tipo “sorting by merging”).?
+  * Lo que se hace es dividir  al arreglo en bloques de datos y ordenar cada bloque paralelamente para luego hacer un merge.
+
+* C)_ Mencione algún sistema de tipo cliente/servidor que conozca
+  * Los sistemas de los cajeros automáticos.
+
+### 10
