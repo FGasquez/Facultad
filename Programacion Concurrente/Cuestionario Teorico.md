@@ -5,7 +5,8 @@
 #### 1. Mencione al menos 3 ejemplos donde pueda encontrarse concurrencia
 #### (que no estén mencionados en las transparencias de la clase)
 
-* Una pc que está renderizando un video, reproduciendo música y a la vez navegando por inernet.
+* Una pc que está renderizando un video, reproduciendo música y a la vez
+  navegando por inernet.
 
 #### 2. Escriba una definición de concurrencia. Diferencie procesamiento
 #### secuencial, concurrente y paralelo.
@@ -25,4 +26,11 @@
 * Multithread: Maneja simultaneamente tareas independientes, asignando los
   procesadores de a cuerdo a alguna politica.
 
-*  
+* Sistemas de computo distribuido: Vincula procesadores distintos sobre los que
+  ejecuta instrucciones que se comunican entre sí por mensajes.
+    * Por ejemplo: Sistemas web distribuidos, Bases de Datos de bancos.
+
+* Sistemas de computo paralelo: Resuolver un problema en menor tiempo, utilizando
+  una arquitectura multiprocesador en la que se puede dividir la taera globar el
+  tareas que puedan ejecutarse en distintos procesadores.
+    * Por ejemplo: Calculo científico, Procesamientode imágenes
