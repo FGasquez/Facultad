@@ -75,3 +75,13 @@
   Si se ejecuta primero la instruccion de p1 y luego la de p2, al finalizar la
   ejecución, x tendrá el valor 6, mientras que si se ejecuta de la forma p2 y
   luego p1, al finalizar la ejecucion x tendrá el valor 5
+
+#### 7. Defina comunicación. Explique los mecanismos de comunicación que conozca
+
+* La comunicacion es la forma en que se organiza y se transmiten datos entre
+  tareas concurrentes.
+* Hay dos protocolos:
+  * Memoria compartida: los procesos intercambian informacion sobre la memoria
+    compartida o actúan coordinadamente sobre datos residentes en ella.
+  * Por pasaje de mensajes: se establece un canal(logico o fisico) para
+    transmitir informacion entre procesos.
