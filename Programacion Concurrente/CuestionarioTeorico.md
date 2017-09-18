@@ -56,8 +56,7 @@
   por ejemplo, cuando varios procesos compiten por un recurso, y hay uno que no
   logra acceder en ningún momento.
 
-#### 6. ¿Qué entiende por no determinismo? ¿Cómo se aplica este concepto
-####    a la ejecución concurrente?
+#### 6. ¿Qué entiende por no determinismo? ¿Cómo se aplica este concepto a la ejecución concurrente?
 
 * Se entiende que la salida puede ser distinta segun el orden de ejecucion de
   los procesos que comparten un recurso.
