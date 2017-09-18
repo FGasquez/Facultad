@@ -7,6 +7,7 @@
 
 * Una pc que está renderizando un video, reproduciendo música y a la vez
   navegando por inernet.
+* SmartPhone 
 
 #### 2. Escriba una definición de concurrencia. Diferencie procesamiento
 #### secuencial, concurrente y paralelo.
@@ -121,4 +122,8 @@
 * C)_ Mencione algún sistema de tipo cliente/servidor que conozca
   * Los sistemas de los cajeros automáticos.
 
+<<<<<<< HEAD
 ### 10
+=======
+### 10. 
+>>>>>>> 828a84882a2c7b92aae3d26ec1bbff0244cde136
