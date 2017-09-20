@@ -4,28 +4,28 @@ se les asigna un numero de grupo, luego deberán esperar a sus compañeros de gr
  a la verificación. **/
 
 
-      Monitor Group{
-        condition queue;
-        groupNumber = 1;
-        cant = 0;
+Monitor Group{
+  condition queue;
+  groupNumber = 1;
+  cant = 0;
 
-        Procedure in(var p){
-          if(cant < 4){
-            cant ++;
-            p = groupNumber;
-            wait(queue);
-          }else{
-            cant = 0;
-            p = groupNumber;
-            groupNumber ++;
-            singnalAll(queue);
-          }
-        }
-      }
+  Procedure in(var p){
+    if(cant < 4){
+      cant ++;
+      p = groupNumber;
+      wait(queue);
+    }else{
+      cant = 0;
+      p = groupNumber;
+      groupNumber ++;
+      singnalAll(queue);
+    }
+  }
+}
 
 
-      Process employees[1..50]{
-        int p;
-        Group.in(p);
-        //checking
-      }
+Process employees[1..50]{
+  int p;
+  Group.in(p);
+  //checking
+}
