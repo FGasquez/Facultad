@@ -1,5 +1,9 @@
-
-#### 3. En un laboratorio de genética se debe administrar el uso de una máquina secuenciadora de ADN. Esta máquina se puede utilizar por una única persona a la vez. Existen 100 personas en el laboratorio que utilizan repetidamente esta máquina para sus estudios, para esto cada persona pide permiso para usarla, y cuando termina el análisis avisa que termino. Cuando la máquina está libre se le debe adjudicar a aquella persona cuyo pedido tiene mayor prioridad (valor numérico entre 0 y 100).
+/** 3. En un laboratorio de genética se debe administrar el uso de una máquina secuenciadora
+de ADN. Esta máquina se puede utilizar por una única persona a la vez. Existen 100
+personas en el laboratorio que utilizan repetidamente esta máquina para sus estudios,
+para esto cada persona pide permiso para usarla, y cuando termina el análisis avisa que
+termino. Cuando la máquina está libre se le debe adjudicar a aquella persona cuyo pedido
+tiene mayor prioridad (valor numérico entre 0 y 100). **/
 
         Monitor machine{
           condition queue[1..100];
@@ -29,7 +33,7 @@
             }else{
               count --;
             }
-          }   
+          }
         }
 
 
