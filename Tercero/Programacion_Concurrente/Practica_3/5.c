@@ -9,16 +9,15 @@ Monitor Group{
   groupNumber = 1;
   count = 0;
 
+  p = groupNumber;
   Procedure in(var p){
     if(count < 4){
       count ++;
-      p = groupNumber;
       wait(queue);
     }else{
       count = 0;
-      p = groupNumber;
       groupNumber ++;
-      singnalAll(queue);
+      signal_All(queue);
     }
   }
 }
